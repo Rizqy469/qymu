@@ -3,12 +3,12 @@ import { connect } from "cloudflare:sockets";
 // import { Buffer } from "node:buffer";
 
 // Variables
-const rootDomain = "bowev56403.workers.dev"; // Ganti dengan domain utama kalian
-const serviceName = "qymu"; // Ganti dengan nama workers kalian
-const apiKey = "ea58451022b849173464c1a03d0ed053c6d38"; // Ganti dengan Global API key kalian (https://dash.cloudflare.com/profile/api-tokens)
-const apiEmail = "bowev56403@lushosa.com"; // Ganti dengan email yang kalian gunakan
-const accountID = ""; // Ganti dengan Account ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
-const zoneID = ""; // Ganti dengan Zone ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
+const rootDomain = "rizqymoebarak.workers.dev"; // Ganti dengan domain utama kalian
+const serviceName = "qymob"; // Ganti dengan nama workers kalian
+const apiKey = "80bf2ecaa84871e380d286c07c171be9e2e09"; // Ganti dengan Global API key kalian (https://dash.cloudflare.com/profile/api-tokens)
+const apiEmail = "rizqymoebarak@gmail.com"; // Ganti dengan email yang kalian gunakan
+const accountID = "807c346543f7a883b8f6c1703a2ccec4"; // Ganti dengan Account ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
+const zoneID = "9f22c28c7aaea77a051534e665a6ee72"; // Ganti dengan Zone ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
 let isApiReady = false;
 let proxyIP = "";
 let cachedProxyList = [];
