@@ -9,7 +9,7 @@ const apiKey = "80bf2ecaa84871e380d286c07c171be9e2e09"; // Ganti dengan Global A
 const apiEmail = "rizqymoebarak@gmail.com"; // Ganti dengan email yang kalian gunakan
 const accountID = "807c346543f7a883b8f6c1703a2ccec4"; // Ganti dengan Account ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
 const zoneID = "9f22c28c7aaea77a051534e665a6ee72"; // Ganti dengan Zone ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
-let isApiReady = false;
+let isApiReady = true;
 let proxyIP = "";
 let cachedProxyList = [];
 
